@@ -1,7 +1,11 @@
 import { Skeleton } from "@/components/ui/skeleton";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { useTheme } from "../ThemeProvider";
 
 const index = () => {
+  const { setToken } = useTheme();
+
   return (
     <>
       <Card className='w-[350px] ml-auto mr-auto border-black dark:border-white'>
@@ -18,6 +22,7 @@ const index = () => {
             <span>Ваш id</span>
             <Skeleton className='w-[200px] h-[10px] rounded-full' />
           </div>
+          <Button onClick={() => setToken("")}>Выйти</Button>
         </CardContent>
       </Card>
     </>
