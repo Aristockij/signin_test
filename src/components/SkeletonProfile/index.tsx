@@ -15,7 +15,7 @@ const index = () => {
           </div>
 
           <div className='w-full rounded-md border border-black dark:border-white border-input bg-transparent px-3 py-1 text-black dark:text-white'>
-            <span>Ваш Email</span>
+            <span>Ваш id</span>
             <Skeleton className='w-[200px] h-[10px] rounded-full' />
           </div>
         </CardContent>

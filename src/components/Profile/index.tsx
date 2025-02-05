@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import SkeletonProfile from "../SkeletonProfile";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useQuery } from "@tanstack/react-query";
-import { baseurl } from "../../helpers/baseurl";
+import { baseurl } from "../../../helpers/baseurl";
 import axios from "axios";
 import { useTheme } from "../ThemeProvider";
 

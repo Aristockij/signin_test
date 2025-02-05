@@ -1,5 +1,5 @@
-import { ThemeProvider } from "../components/ThemeProvider";
-import Content from "../components/Content";
+import { ThemeProvider } from "@/components/ThemeProvider";
+import Content from "@/components/Content";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 function App() {
